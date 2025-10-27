@@ -34,20 +34,20 @@ H5P.Accordion=function(c){var i=0,l=0,u=[];function e(e,t,n){this.contentId=t,H5
   .email-button-container {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    max-width: 400px;
+    gap: 12px;
+    max-width: 300px;
     margin: 20px auto;
   }
   
   .email-button {
     display: block;
-    padding: 15px 30px;
+    padding: 12px 24px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     text-decoration: none;
     border-radius: 8px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     transition: transform 0.2s, box-shadow 0.2s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -62,6 +62,32 @@ H5P.Accordion=function(c){var i=0,l=0,u=[];function e(e,t,n){this.contentId=t,H5
   .email-button:active {
     transform: translateY(0);
   }
+  
+  .back-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .back-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    color: white;
+  }
+  
+  .back-button:active {
+    transform: translateY(0);
+  }
+</style>
 <body>
     <div style="margin: 20px 20px;display: flex; justify-content: center;">
         <div
